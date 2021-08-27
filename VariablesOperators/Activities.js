@@ -27,15 +27,15 @@
 
 // console.log(`Tomorrow I will have ${breakfast} for breakfast, ${lunch} for lunch, and ${dinner} for dinner.`)
 
-// // Activity 3
+// // Activity 3 
 
-// // let today = new Date();
-// // let birthday = new Date (1979, 03, 26);
-// // console.log (birthday);
-// // console.log (today);
+// const birthday = new Date(1979, 03, 26, 10, 33, 30, 0);
+// let timeSince = Date.now(birthday);
+// let daysSince = (timeSince / 86400000)
 
+// console.log(daysSince);
 
-// // Activity 4
+// // Activity 4   
 
 // let space1 = ('x');
 // let space2 = ('o');
@@ -49,16 +49,16 @@
 
 // x = "       |       |       "
 // y = "- - - - - - - - - - - -"
-// line2 = "  ${space1}  |  ${space2}  |  ${space3}  "
-// line6 = "  ${space4}  |  ${space5}  |  ${space6}  "
-// line10 = "  ${space7}  |  ${space8}  |  ${space9}  "
-// for(let i = 0; i < 11; i++) {
-//     if (i == 3) {console.log(y);}
-//     else if (i  == 1) {console.log(line2)}
+// line2 = `   ${space1}   |   ${space2}   |  ${space3}  `
+// line6 = `   ${space4}   |   ${space5}   |  ${space6}  `
+// line10 = `   ${space7}   |   ${space8}   |  ${space9}  `
+// for (let i = 0; i < 11; i++) {
+//     if (i == 3) { console.log(y); }
+//     else if (i == 1) { console.log(line2) }
 //     else if (i == 5) (console.log(line6))
 //     else if (i == 9) (console.log(line10))
-//     else if (i == 7) {console.log(y);}
-//     else {console.log(x);}
+//     else if (i == 7) { console.log(y); }
+//     else { console.log(x); }
 // }
 
 // -----------if, else, switch----------
@@ -69,7 +69,7 @@
 
 // if (age > 17) {
 //     console.log("Yes I can serve you.");
-// } 
+// }
 // else {
 //     console.log("You aren't old enough.");
 // }
@@ -107,7 +107,7 @@
 // if (password.length < 8) {
 //     console.log("The password is too short.");
 // }
-// else{
+// else {
 //     console.log(`${password}`)
 // }
 
@@ -118,7 +118,7 @@
 // if (num % 5 == 0 || num % 3 == 0) {
 //     console.log("This number is divisible by 3 or 5.")
 // }
-// else{
+// else {
 //     console.log("This number is not divisible by 3 or 5.")
 // }
 
@@ -135,40 +135,19 @@
 // else if (num % 5 == 0) {
 //     console.log("buzz");
 // }
-    // else{
-    //     console.log("This number is not divisible by 3 or 5.")
-    // }
-// Activity 5 --------- need to reverse the number, then compare to number to see if its the same-----
-
-String = "12345";
-StringBuilder(num);
-
-
-// let num = 12345;
-// let reversedNumber = 0;
-
-// while (num > 0) {
-//     reversedNumber  = reversedNumber*10 + num %10;
-//     num = num / 10;
+// else {
+//     console.log("This number is not divisible by 3 or 5.")
 // }
 
-// console.log(reversedNumber);
+// Activity 5 --------- reverse the number, then compare to number to see if its the same-----
 
-// let num = 1234
+// let num = "1234567654321";
+// let reverseNumber = num.split("").reverse().join("");
 
-// function reverseInteger(num) {
-//     let reversedInteger = 0;
-//     let rem = 0;
-
-// while (num > 0 ) {
-//     reversedInteger *= 10;
-//     rem = num % 10;
-//     num = (num - rem) / 10;
-
-//     reversedInteger += rem;
-// }
-//     return reversedInteger;
-//     console.log(reversedInteger);
+// if (num == reverseNumber) {
+//     console.log(`${num} is a palindrome`);
+// } else {
+//     console.log(`${num} is not a palindrome`)
 // }
 
 // Activity 6
@@ -191,7 +170,6 @@ StringBuilder(num);
 // let vowels = ["a", "e", "i", "o", "u"];
 
 // let pos = string.lastIndexOf(vowels)
-// console.log(string.lastIndexOf(vowels))
 // console.log(string.lastIndexOf(vowels));
 
 
@@ -199,7 +177,7 @@ StringBuilder(num);
 
 // let word = "Lorraine";
 // let first = (word.charAt(0))
-// let last = (word.charAt(word.length-1))
+// let last = (word.charAt(word.length - 1))
 // if (first.toLowerCase() == last.toLowerCase()) {
 //     console.log("true")
 // }

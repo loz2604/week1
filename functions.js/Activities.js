@@ -68,12 +68,14 @@
 
 // sentence(string, "is better than nothing.")
 
+// --------- Next Challenge ----------
 
 // const rectanglePerimeter = (length, width) => {
 //     return (length * 2) + (width * 2);
 // }
 // console.log("The perimeter of your rectangle is " + rectanglePerimeter(2, 4) + "cm.");
 
+// ------- Next Challenge ----------
 
 // const largerNumber = (num1, num2) => {
 //     if (num1 > num2) {

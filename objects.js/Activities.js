@@ -105,56 +105,43 @@
 // const coffeeShop = {
 //     branch: "Manchester",
 //     drinks: [
-//         "Tea",
-//         "Coffee",
-//         "Hot Chocolate",
-//         "Lemonade",
-//         "Orange Juice"
+//         "Tea", 1.50,
+//         "Coffee", 2.50,
+//         "Hot Chocolate", 2.50,
+//         "Lemonade", 2.00,
+//         "Orange Juice", 2.00
 //     ],
-//     drinksPrices: [
-//         1.50,
-//         2.50,
-//         2.50,
-//         2.00,
-//         2.00
-//     ],
-//     food: [
-//         "Bacon Barm",
-//         "Sausage Barm",
-//         "Egg Barm",
-//         "Cheese Salad Barm",
-//         "Ham Salad Barm",
-//     ],
-//     foodPrices: [
-//         2.50,
-//         2.50,
-//         2.00,
-//         2.00,
-//         2.00
-//     ],
-//     foodOrdered() {
-//         for (let x = 0; x < yourFoodOrder.length; x++) {
-//             for (let y = 0; y < this.food.length; y++) {
-//                 if ((yourFoodOrder[x].toLowerCase()) != (this.food[y].toLowerCase())) {
-//                     return `${this.food[y]}`;
-//                 }
-//             }
-//         }
-//     },
 
-//     drinksOrdered() {
-//         for (let j = 0; j < yourDrinksOrder.length; j++) {
-//             for (let i = 0; i < this.drinks.length; i++) {
-//                 if ((yourDrinksOrder[j].toLowerCase()) != (this.drinks[i].toLowerCase())) {
-//                     return `${this.drinks[i]}`;
-//                 }
+//     food: [
+//         "Bacon Barm", 2.50,
+//         "Sausage Barm", 2.50,
+//         "Egg Barm", 2.00,
+//         "Cheese Salad Barm", 2.00,
+//         "Ham Salad Barm", 2.00
+//     ],
+
+// foodOrdered() {
+//     for (let x = 0; x < yourFoodOrder.length; x++) {
+//         for (let y = 0; y < this.food.length; y++) {
+//             if ((yourFoodOrder[x].toLowerCase()) != (this.food[y].toLowerCase())) {
+//                 return `${this.food[y]}`;
 //             }
 //         }
 //     }
+// },
+
+// drinksOrdered() {
+//     for (let j = 0; j < yourDrinksOrder.length; j++) {
+//         for (let i = 0; i < this.drinks.length; i++) {
+//             if ((yourDrinksOrder[j]) === (this.drinks[i])) {
+//                 return `${this.drinks[i]}`;
+//             }
+//         }
+//     }
+// }
 // };
 
-// ------ Need to link the duplicate items indexes in the food/drink lists with the corresponding indexes in the prices lists ---------
 // ---------- Then add the prices together, print the order, prices and total -------
 // console.log(coffeeShop.drinks);
 
-// console.log(coffeeShop.foodOrdered());
+// console.log(coffeeShop.drinksOrdered());
